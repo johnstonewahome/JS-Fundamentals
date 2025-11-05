@@ -6,7 +6,7 @@ if (Number.isNaN(count)) {
     let output = '';
     for (let i = 0; i < count; i++) {
         output += 'C is fun';
-        if (i < count - 1) return;
+        if (i < count - 1) output += '\n';
     }
     console.log(output);
 }
